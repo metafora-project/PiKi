@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<piki_configuration>
+  <!-- Metafora Properties -->
+  <property key="metafora_userid" value="matteo" />
+  <property key="metafora_groupid" value="TL_Test" />
+  <property key="metafora_challengeid" value="none" />
+
+  <!-- XMPP Properties -->
+  <property key="xmpp_sender" value="piki@metaforaserver.ku.de" />
+  <property key="xmpp_password" value="piki" />
+  <property key="xmpp_logger_channel" value="logger@conference.metaforaserver.ku.de" />
+  <property key="xmpp_analysis_channel" value="analysis@conference.metaforaserver.ku.de" />
+  <property key="xmpp_command_channel" value="command@conference.metaforaserver.ku.de" />
+
+  <property key="xmpp_sender_test" value="piki@metafora.ku-eichstaett.de" />
+  <property key="xmpp_password_test" value="piki" />
+  <property key="xmpp_logger_channel_test" value="logger@conference.metafora.ku-eichstaett.de" />
+  <property key="xmpp_analysis_channel_test" value="analysis@conference.metafora.ku-eichstaett.de" />
+  <property key="xmpp_command_channel_test" value="command@conference.metafora.ku-eichstaett.de" />
+
+  <!-- Server Properties -->
+  <property key="server_uploadurl" value="http://metafora.ku-eichstaett.de:8081/servicemodulnewxmpp/metaforaservicemodul/fileupload" />
+  <property key="server_uploadurl_test" value="http://metafora.ku-eichstaett.de:8081/metaforaservicemodul/metaforaservicemodul/fileupload" />
+
+  <!-- Startup Properties -->
+  <property key="startup_state_file" value="piki_default.dat" />
+  <property key="startup_force_local_file" value="false" />
+
+  <!-- Gameplay Properties -->
+  <property key="shots_attack_num" value="20" />
+  <property key="shots_num" value="10" />
+  <property key="flags_num" value="1" />
+  <property key="palms_num" value="2" />
+  <property key="boxes_num" value="3" />
+  <property key="clouds_num" value="2" />
+
+  <property key="treasure_num" value="4" />
+  <property key="treasure_start_pos" value="40.0" />
+  <property key="treasure_end_pos" value="300.0" />
+  <property key="treasure_random_factor" value="1.0" />
+
+</piki_configuration>
